@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ам-ням | маленькое кафе</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/popup.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="header-wrapper">
+    <div class="header-order">
+        <div class="header-logo-menu-bg">
+            <div class="header-logo-menu">
+                <div class="logo">
+                    <a href="about.html" class="main-screen">
+					    <span class="big-logo">Ам-ням</span><br>
+					    <span class="small-logo">с 07:00 до 21:00, Брестская, 64</span>
+                        <span class="mobile-logo">07:00 — 21:00, Брестская, 64</span>
+                    </a>
+                </div>
+                <div class="nav">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="index.html">Главная</a></li>
+                        <li class="menu-item"><a href="menu.html">Меню</a></li>
+                        <li class="menu-item"><a href="order.html" class="active">Доставка</a></li>
+                        <li class="menu-item"><a href="soup.html">Супы</a></li>
+                        <li class="menu-item"><a href="about.html">О нас</a></li>
+                        <li class="menu-item"><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="nav-mobile">
+                    <li class="nav-mobile-item"><a href="index.html" class="active">Главная</a></li>
+                    <li class="nav-mobile-item"><a href="menu.html">Меню</a></li>
+                    <li class="nav-mobile-item"><a href="order.html">Доставка</a></li>
+                    <li class="nav-mobile-item"><a href="soup.html">Супы</a></li>
+                    <li class="nav-mobile-item"><a href="about.html">О нас</a></li>
+                    <li class="nav-mobile-item"><a href="contacts.html">Контакты</a></li>
+                </div>
+                <div id="burger">
+                    <div class="burger-inner">
+                        <span></span>
+                        <span class="central-span"></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="orders">
+                    <div class="orders-text">
+                        <p>Скидка 10% на все меню<br>при самовывозе</p><br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-wrapper">
+    <div class="container-services-title">
+        <h2>Доставка и самовывоз</h2>
+        <p>Посещение кафе возможно исключительно гостями, имеющими QR-код, подтверждающий пройденную вакцинацию от COVID-19, перенесенное заболевание или отрицательный ПЦР-тест, во исполнение Указа Мэра Москвы от 24.06.2021 «О внесении изменений в указ Мэра Москвы от 8 июня 2020 г. № 68-УМ» в связи с угрозой распространения в городе Москве новой коронавируснойинфекции (2019-nCo V)</p>
+        <p>При отсутствии указанного QR-кода вы можете оформить заказ с собой или заказать доставку.</p>
+        <p>Прием заказов на доставку блюд из кафе по телефону <span>238-238-3</span>, а также через сайт в период с <span>08:00 до 20:00</span> ежедневно, без выходных.</p>
+        <p>Доставка в пределах МКАД бесплатна, при заказе от <span>2000</span> рублей.</p>
+        <p>Стоимость доставки <span>300</span> рублей при сумме заказа менее <span>2000</span> рублей.</p>
+        <p>Оплата курьеру наличными или банковской картой.</p>
+        <p>Действует скидка 10% на все меню при самовывозе.</p>
+    </div>
+</div>
+
+    <div class="favorites-bg">
+        <div class="favorites-container">
+            <h3>Наши курьеры</h3>
+            <div class="favorites">
+                <div class="about-item">
+                   <img src="images/curier01-370-min.jpg" alt="">
+                    <h4>Александр</h4>
+                </div>
+                <div class="about-item">
+                   <img src="images/curier03-370-min.jpg" alt="">
+                    <h4>Михаил</h4>
+                </div>
+                <div class="about-item">
+                   <img src="images/curier02-370-min.jpg" alt="">
+                    <h4>Антон</h4>
+                </div>
+                <div class="about-item">
+                   <img src="images/curier04-370-min.jpg" alt="">
+                    <h4>Виталий</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="http://wd-asha.ru">
+            <p>&copy; wd-asha</p>
+        </a>
+    </footer>
+
+<div class="fix-box" id="fix-box"></div>
+
+<div class="popup" id="popup">
+    <a href="#fix-box" class="popup_area"></a>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#fix-box" class="popup_close">
+                <i class="fa fa-times"></i>
+            </a>
+            <div class="popup_title">
+                Заказ места
+            </div>
+            <div class="popup_text">
+                <form class="login-form" action="" method="post">
+                    <input class="login-input" type="text" placeholder="Ваше имя *">
+                    <input class="login-input" type="text" placeholder="Ваш телефон *">
+                    <input class="login-input" type="text" placeholder="Дата *">
+                    <input class="login-input" type="text" placeholder="Время *">
+                    <input class="login-input" type="text" placeholder="Количество мест *">
+                    <a href="#fix-box" class="login-submit">Отправить</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $('#burger').click(function () {
+        let
+            burgerSpan = $('#burger .burger-inner span'),
+            burgerSpanCentral = $('#burger .burger-inner span.central-span'),
+            burgerSpanBefore = $('#burger .burger-inner span:first-child'),
+            burgerSpanAfter = $('#burger .burger-inner span:last-child'),
+            mobileMenu = $('.nav-mobile'),
+            mobileMenuLink = $('.nav-mobile li a');
+
+            mobileMenu.toggleClass('open-menu');
+            if (mobileMenu.hasClass('open-menu')) {
+                burgerSpan.css("left", "50%");
+                burgerSpan.css("top", "50%");
+                burgerSpan.css("width", "6px");
+                mobileMenuLink.css({"opacity": 1, "transition": "2s"});
+                setTimeout(function() {
+                    burgerSpanBefore.css("transform", "translate(-50%, -50%) rotate(45deg)");
+                    burgerSpanAfter.css("transform", "translate(-50%, -50%) rotate(-45deg)");
+                }, 400);
+                setTimeout(function() {
+                    burgerSpanBefore.css("width", "80%");
+                    burgerSpanAfter.css("width", "80%")
+                }, 600);
+            }else{
+                burgerSpan.css("width", "6px");
+                mobileMenuLink.css({"opacity": 0, "transition": ".5s"});
+                setTimeout(function() {
+                    burgerSpanBefore.css("transform", "translate(-50%, -50%) rotate(0)");
+                    burgerSpanAfter.css("transform", "translate(-50%, -50%) rotate(0)");
+                }, 200);
+                setTimeout(function() {
+                    burgerSpanBefore.css("top", "25%");
+                    burgerSpanAfter.css("top", "75%");
+                    burgerSpan.css("width", "80%")
+                }, 700);
+            }
+    });
+</script>
+</body>
+</html>
